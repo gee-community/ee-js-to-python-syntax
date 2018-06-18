@@ -17,3 +17,4 @@ such as plotting, run tasks, ect.
 
 
 ## Example
+see `test_eejs2python_colab.ipynb` in [Colab](https://colab.research.google.com)
