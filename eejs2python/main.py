@@ -49,14 +49,12 @@ def main():
                     r'\/\*\*':'\"\"\"\"', # format multi-line comments
                     r'\s\*\s':' ', # format multi-line comments
                     r'\s\*\/':'\"\"\"', # format multi-line comments
-                    r'(\n^\s* {4})':r' \\\n  ', # format chaining of functions
+                    r'\n^\s* {4}|\n^\s* {2}':r' \\\n  ', # format chaining of functions
                     r'//\s':r'# ', # format single-line comments
                     r'\b\.and\b':'.And', # captilise .and
                     r'\b\)\.and\b':').And', # captilise .and
                     r'\b\.or\b':'.Or', # captilise .or
-                    r'\b\);\b':')', # remove ;
-                    r'\b\];\b':']', # remove ;
-                    r'\b\};\b':'}' # remove ;
+                    r';':'' # remove ;
                     }
 
     # Replace text
