@@ -1,7 +1,7 @@
 # ee-js-to-python-syntax
 Simplistic conversion of earthengine JavaScript to Python syntax.
 
-Preliminary proof of concept for a package that enables easy conversion of
+**Very** preliminary proof of concept for a package that enables easy conversion of
 earth engine JavaScript examples to Python syntax.
 
 Potentially [jiphy](https://github.com/timothycrosley/jiphy) is usful, although
