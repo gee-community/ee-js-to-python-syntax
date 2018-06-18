@@ -54,9 +54,9 @@ def main():
                     r'\b\.and\b':'.And', # captilise .and
                     r'\b\)\.and\b':').And', # captilise .and
                     r'\b\.or\b':'.Or', # captilise .or
-                    #r'\b\);\b':')', # remove ;
-                    #r'\b\];\b':']', # remove ;
-                    #r'\b\};\b':'}' # remove ;
+                    r'\b\);\b':')', # remove ;
+                    r'\b\];\b':']', # remove ;
+                    r'\b\};\b':'}' # remove ;
                     }
 
     # Replace text
@@ -66,7 +66,7 @@ def main():
         return text
 
     # Add ee python front matter
-    fm = "#!/usr/bin/env python\n\n# Import earthengine API\nimport ee\nimport ee.mapclient\n\n# Initialise\nee.Initialize()\n\n"
+    fm = "#!/usr/bin/env python\n\n# Import earthengine API\nimport ee\n\n# Initialise\nee.Initialize()\n\n"
     def add_fm(text, fm):
         return fm + text
 
