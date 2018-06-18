@@ -7,4 +7,4 @@ setup(name='eejs2python',
       author='Edward P. Morris',
       author_email='edward.morris.1976@gmail.com',
       license='GPL-3',
-      packages=['eejs2python']
+      packages=['eejs2python'])
