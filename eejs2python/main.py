@@ -54,9 +54,9 @@ def main():
                     r'\b\.and\b':'.And', # captilise .and
                     r'\b\)\.and\b':').And', # captilise .and
                     r'\b\.or\b':'.Or', # captilise .or
-                    r'\b\);\b':')', # remove ;
-                    r'\b\];\b':']', # remove ;
-                    r'\b\};\b':'}' # remove ;
+                    #r'\b\);\b':')', # remove ;
+                    #r'\b\];\b':']', # remove ;
+                    #r'\b\};\b':'}' # remove ;
                     }
 
     # Replace text
