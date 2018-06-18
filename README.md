@@ -12,6 +12,9 @@ So far RegEx is used to convert general JS syntax to Python equilvilent.
 General Python frontmatter is added.
 
 TODO:
++ Why do some of the regex rules not always convert?
++ Dealing with line breaks does not always work
++ Comments within line breaks, break python.  
 + Conversion of ee API calls that are not similar between JS and Python, 
 such as plotting, run tasks, ect. 
 
