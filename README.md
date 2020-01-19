@@ -4,10 +4,10 @@ Simplistic conversion of earthengine JavaScript to Python syntax.
 **Very** preliminary proof of concept for a package that enables easy conversion of
 earth engine JavaScript examples to Python syntax.
 
-Potentially [jiphy](https://github.com/timothycrosley/jiphy) is usful, although
+Potentially [jiphy](https://github.com/timothycrosley/jiphy) is useful, although
 it seems to be un-maintained.
 
-So far RegEx is used to convert general JS syntax to Python equilvilent.
+So far RegEx is used to convert general JS syntax to Python equivalent.
 
 General Python frontmatter is added.
 
